@@ -1,4 +1,4 @@
-Creational  Patterns :::::
+Creational Patterns ::::: 
 Singleton Pattern : 
 -> This pattern is used to restrict the multiple instantiations of an object(i.e only a single instance of the class is allowed).
 -> Some objects are needed to instantiate only once(for example the preference object in a game)(having multiple preference objects can cause issues in the system).
@@ -10,18 +10,24 @@ Factory Pattern :
 -> By using this pattern the client classes are restricted to directly instantiate the objects of the classes and this responsibility is outsourced to the factory class.
 -> The client classes can get the instances of the object through this factory class object.
 
-Factory Method Pattern :
+Factory Method Pattern : 
 -> This pattern is same as factory pattern except that the responsibility of instantiating the objects of classes is outsourced to a method instead of a seperate class.
 
 
-Structural Patterns :::::
+Structural Patterns ::::: 
 Facade Pattern : 
 -> This pattern is used to provide a simple interface(not a Java Interface) to a complex sub system.
 -> The facade class is used to provide simple endpoints for accessing our sub system.
 -> The facade class uses the existing sub system classes and does not introduce any new functionalities into the system.
 -> The client classes can access the sub system through the facade class which is not difficult to deal with.
 
-Behavioural Patterns :::::
+Adapter Pattern : 
+-> This pattern is used to brigde the gap between two incompatable interfaces
+->  Instead of changing the existing systems we use a adapter class which implements the client interface through which the client can interact with the third party library.
+-> By using this pattern the client interacts with the third party library through the adapter class.
+-> This is mostly used when the output of one system is not suitable as the input of another system(in this case the client and the third party library).
+
+Behavioural Patterns ::::: 
 
 
 
